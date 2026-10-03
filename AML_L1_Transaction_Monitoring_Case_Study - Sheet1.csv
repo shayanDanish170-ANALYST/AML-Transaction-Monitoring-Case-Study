@@ -1,0 +1,13 @@
+Txn_ID,Date,Account_Name,Txn_Type,Amount ($),Counterparty_Country,Red_Flag_Trigger
+TXN101,01-Oct-2026,Apex Retail,Wire Inward,48500,Panama (Offshore),Profile Mismatch ($48.5k vs $20k expected)
+TXN102,02-Oct-2026,Apex Retail,Cash Out,9800,India (Branch/ATM),Structuring (Under $10k Threshold)
+TXN103,02-Oct-2026,Apex Retail,Cash Out,9500,India (Branch/ATM),Structuring (Under $10k Threshold)
+TXN104,03-Oct-2026,Apex Retail,Wire Out,9900,High-Risk Country,Rapid Pass-Through / Layering
+TXN105,03-Oct-2026,Apex Retail,Wire Out,9700,High-Risk Country,Rapid Pass-Through / Layering
+TXN106,03-Oct-2026,Apex Retail,Cash Out,9000,India (Branch/ATM),Structuring (Under $10k Threshold)
+,,,,,,
+CASE INVESTIGATION SUMMARY (AML L1 ANALYST REPORT),,,,,,
+"• Customer Profile: Apex Retail Solutions (Sole Proprietorship) | Expected Monthly Activity: $15,000 – $20,000.",,,,,,
+"• Incident Overview: On Oct 1, 2026, account received an uncharacteristic inward wire of $48,500 from Panama (High-Risk/Offshore). Within 48 hours, $47,900 was moved out via 5 separate transactions, each kept strictly below the $10,000 threshold ($9,000–$9,900).",,,,,,
+"• Typology Identified: Structuring (Smurfing) to intentionally evade Currency Transaction Reporting (CTR) limits, combined with Rapid Pass-Through / Layering of funds.",,,,,,
+• Final Decision & Recommendation: Escalated to L2 Compliance Team for SAR/STR filing and immediate account restriction.,,,,,,
